@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+}
+body {
+    background: url(assets/fundo-portifolio.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+
+#foto-perfil {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid #2cf804;
+    right: 100px;
+    top: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2cf804;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #1db302;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#welcome {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resposta-sobre {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    color:#000;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid #2cf804;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    color:#f0f0f0;
+}
+
+.resposta-curriculo {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    color:#000;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.btn-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2cf804;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #1db302;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    list-style-type: none;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 90%;
+    min-height: 290px;
+
+    margin: 10px;
+    padding: 10px;
+
+    border: 1px solid #2cf804;
+    border-radius: 15px;
+
+    cursor: pointer;
+    gap: 10px;
+}
+
+li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+strong {
+    font-size: 12px;
+    color: #2cf804;
+}
+
+.img-projetos {
+    width: 100%;
+    border-radius: 15px;
+
+    margin-top: auto;
+    border-radius: 15px;
+}
+
+.img-projetos-landing {
+    width: 100%;
+    height: 50%;
+
+    margin-top: auto;
+    border-radius: 15px;
+}
+
+.container-certificados {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.certificados-img {
+    height: auto;
+    border: 1px solid #2cf804;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.certificados {
+    width: 100%;
+    border-radius: 15px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #2cf804;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: auto;    
+
+    @media (max-width: 768px) {
+
+        #container-footer {
+            grid-template-columns: 1fr;
+            text-align: center;
+            margin-left: 0;
+    }
+}
+
+.ultimo-paragrafo {
+    font-size: 15px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 15px;
+    color: #fff;
+}
+
+#container-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.link {
+    color: #2cf804;
+    text-decoration: none;
+}
+
