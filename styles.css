@@ -98,7 +98,7 @@ section {
 }
 
 .resposta-curriculo {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 20px 0;
     width: 100%;
     height: auto;
@@ -107,6 +107,10 @@ section {
     padding: 15px;
 
 }
+
+.link-curriculo {
+        color: blue;
+    }
 
 .btn-download {
     display: inline-block;
