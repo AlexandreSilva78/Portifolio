@@ -5,6 +5,7 @@
     font-family: 'Arial', sans-serif;
     font-style: italic;
 }
+
 body {
     background: url(assets/fundo-portifolio.png) no-repeat center center fixed;
     background-size: cover;
@@ -80,7 +81,7 @@ article {
     margin: 20px 0;
     width: 100%;
     height: auto;
-    color:#000;
+    color: #000;
     text-align: center;
     padding: 15px;
     cursor: pointer;
@@ -93,18 +94,18 @@ section {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 0;
-    color:#f0f0f0;
+    color: #f0f0f0;
 }
 
 .resposta-curriculo {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     margin: 20px 0;
     width: 100%;
     height: auto;
-    color:#000;
+    color: #000;
     text-align: center;
     padding: 15px;
-    
+
 }
 
 .btn-download {
@@ -210,11 +211,11 @@ figcaption {
 }
 
 footer {
-    text-align: center;    
+    text-align: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin-top: auto;    
+    margin-top: auto;
 
     @media (max-width: 768px) {
 
@@ -222,6 +223,7 @@ footer {
             grid-template-columns: 1fr;
             text-align: center;
             margin-left: 0;
+        }
     }
 }
 
@@ -255,4 +257,3 @@ h6 {
     color: #2cf804;
     text-decoration: none;
 }
-

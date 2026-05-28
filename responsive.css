@@ -1,0 +1,49 @@
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    #foto-perfil {
+        display: none;
+    }
+}
+
+@media (max-width: 517px) {
+
+    .link-curriculo {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 462px) {
+
+    .link-curriculo {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 362px) {
+
+    .link-curriculo {
+        font-size: 8px;
+    }
+
+}
